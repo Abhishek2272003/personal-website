@@ -36,6 +36,7 @@ function typeLine() {
 
 typeLine();
 
+
 // Function to update the progress bar value and text
 function updateProgressBar(barId, value) {
   const progressBar = document.getElementById(barId);
@@ -46,25 +47,41 @@ function updateProgressBar(barId, value) {
 
 // Function to increase the progress bar gradually
 function increaseProgressBar(barId, targetValue) {
-  let value = 0;
-  const duration = 2000; // Duration in milliseconds (2 seconds in this example)
-  const increment = 1; // How much to increment the progress per step (1% in this example)
+  return new Promise((resolve) => {
+    let value = 0;
+    const duration = 2000; // Duration in milliseconds (2 seconds in this example)
+    const increment = 1; // How much to increment the progress per step (1% in this example)
 
-  const interval = setInterval(() => {
+    const interval = setInterval(() => {
       value += increment;
       updateProgressBar(barId, value);
 
       if (value >= targetValue) {
-          clearInterval(interval);
+        clearInterval(interval);
+        resolve(); // Resolve the promise when animation completes
       }
-  }, duration / 100); // Divide duration by 100 for smoother animation
+    }, duration / 100); // Divide duration by 100 for smoother animation
+  });
 }
 
-// Call the function to increase the progress bars
-increaseProgressBar('progress-bar-1', 60);
-increaseProgressBar('progress-bar-2', 90);
-increaseProgressBar('progress-bar-3', 75);
-increaseProgressBar('progress-bar-4', 80);
+// Function to restart all progress bar animations after a delay
+function restartAllProgressBars() {
+  const targetValues = [60, 90, 75, 80];
 
+  Promise.all([
+    increaseProgressBar('progress-bar-1', targetValues[0]),
+    increaseProgressBar('progress-bar-2', targetValues[1]),
+    increaseProgressBar('progress-bar-3', targetValues[2]),
+    increaseProgressBar('progress-bar-4', targetValues[3])
+  ]).then(() => {
+    setTimeout(startAllProgressBars, 1000); // Restart after a 1-second delay
+  });
+}
 
+// Start all progress bar animations
+function startAllProgressBars() {
+  restartAllProgressBars();
+}
 
+// Start the progress bar animations
+startAllProgressBars();
