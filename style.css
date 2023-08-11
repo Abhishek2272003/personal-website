@@ -183,7 +183,7 @@ figure{
 }
 
 .About{
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     background-color: #08d8ff;
     font-size: 1.3rem;
@@ -201,7 +201,7 @@ figure{
     /* width: 50vw; */
     /* overflow: hidden; */
     flex-wrap: wrap;
-    height: 70vh;
+    height: 100%;
     align-items: center;
     justify-content: space-around;
     /* border: 2px solid red; */
@@ -232,7 +232,7 @@ h3{
 }
 .skills{
     color: #08d8ff;
-    height: 100vh;
+    /* height: 100vh; */
     /* border: 2px solid red; */
     background-color: #02152c;
 }
@@ -609,17 +609,18 @@ button:hover{
         margin-right: 0;
     }
     .About{
-        height: 85vh;
+        /* height: 100%; */
+        /* border: 2px solid red; */
         /* font-size: 1.1rem; */
     }
     .About h1{
         /* margin-top: 20px; */
-        padding: 20px 0;
+        /* padding: 20px 0; */
     }
     #about-gif{
         /* height: 100%; */
         /* border-radius: 20px; */
-        width: 60vw;
+        width: 90vw;
         /* height: 50vh; */
         /* margin-left: 0; */
     }
