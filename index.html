@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek</title>
+    <link rel="icon" type="image/x-icon" href="img/abhishek-icon.jpeg">
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    /> -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="logo"><img src="img/abhishek-icon.jpeg" alt=""></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <!-- <li><a href="#shooping">Shooping</a></li> -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger" onclick="toggleNav()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    
+    <section class="home" id="home">
+      <!-- content -->
+      <div class="content">
+        <!-- <h3>Wellcome!</h3> -->
+        <h1 class="content-h1">
+          <div class="typing-container">
+            <span id="text"></span>
+            <div class="cursor"></div>
+          </div>
+        </h1>
+        <p>
+          I'm Abhishek Sain, a passionate web developer creating captivating
+          digital experiences. With expertise in front-end and back-end
+          technologies, I craft visually stunning interfaces and build robust
+          web applications. Let's collaborate and turn your ideas into
+          incredible web solutions! Explore my work and get in touch—I'm excited
+          to create something amazing with you!
+        </p>
+        <div class="social_media_logos">
+          <a href="https://instagram.com/abhisheksain_22?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D " target="_blank"><div class="insta_logo"></div></a>
+          <!-- <div class="insta_logo"></div> -->
+          <a href="https://www.facebook.com/abhishek.sain.39982631?mibextid=ZbWKwL" target="_blank"><div class="facebook_logo"></div></a>
+          <!-- <div class="facebook_logo"></div> -->
+          <a href="https://www.linkedin.com/in/abhishek-sain-8b5153233" target="_blank"><div class="LinkedIn_logo"></div></a>
+          <!-- <div class="LinkedIn_logo"></div> -->
+          <a href="https://twitter.com/abhisheksain_22?t=HpGjxlNfAF3p-JxwEN-Olg&s=08" target="_blank"><div class="twitter_logo"></div></a>
+          <!-- <div class="twitter_logo"></div> -->
+        </div>
+      </div>
+      <!-- Image -->
+      <figure id="image"></figure>
+    </section>
+
+    <section class="About" id="about">
+      <h1>About Me</h1>
+      <div class="about-content">
+        <img src="img/GR7w.gif" alt="" id="about-gif" />
+        <div class="paragraphs">
+          <p>
+            Passionate about web development, I thrive on turning ideas into
+            functional websites and applications using HTML, CSS, JavaScript,
+            and frameworks. My focus is on creating exceptional user
+            experiences, pushing the boundaries of my skills, and contributing
+            to the ever-changing web landscape.
+          </p>
+          <p id="about-second-para">
+            As a lifelong learner in web development, I stay updated with the
+            latest technologies and trends. Collaboration is essential, as I
+            value diverse perspectives and believe in delivering solutions that
+            resonate with users. Crafting meaningful experiences is my goal,
+            leaving a positive impact on the digital world through creativity
+            and dedication.
+          </p>
+          <h3>Education Background</h3>
+          <div class="education">
+            <p>
+              B.Tech Computer Science, <br />Bikaner Technical University,
+              <br />Bikaner,India
+            </p>
+            <p>12th with Science with 94%,<br />10th with 81%</p>
+            <!-- <p>12th with Science with 94%</p> -->
+            <!-- <p>10th with Science with 81%</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1>Skills</h1>
+      <div class="sklii-content">
+        <div class="progress-container-head">
+          <div class="progress-container">
+            <img src="img/html_logo.gif" alt="" class="skill_logo" />
+            <div class="progress-bar" id="progress-bar-1"></div>
+            <div class="progress-text">0%</div>
+          </div>
+  
+          <div class="progress-container">
+            <img src="img/css_logo.gif" alt="" class="skill_logo" />
+            <div class="progress-bar" id="progress-bar-2"></div>
+            <div class="progress-text">0%</div>
+          </div>
+  
+          <div class="progress-container">
+            <img src="img/js_logo.gif" alt="" class="skill_logo" />
+            <div class="progress-bar" id="progress-bar-3"></div>
+            <div class="progress-text">0%</div>
+          </div>
+  
+          <div class="progress-container">
+            <img src="img/python_logo.gif" alt="" class="skill_logo" />
+            <div class="progress-bar" id="progress-bar-4"></div>
+            <div class="progress-text">0%</div>
+          </div>
+        </div>
+        <div class="skill-text">
+          <div class="programming">
+            <h5>Programming</h5>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Python</li>
+              <li>MongaDB</li>
+            </ul>
+          </div>
+          <div class="programming">
+            <h5>Responsive design</h5>
+            <ul>
+              <li>bootstrap</li>
+              <li>css grid</li>
+              <li>flexbox</li>
+              <li>Media Queries</li>
+              <li>Browser </li>
+            </ul>
+          </div>
+          <div class="programming">
+            <h5>Version Control</h5>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+            </ul>
+          </div>
+          <div class="programming">
+            <h5>Othhers</h5>
+            <ul>
+              <li>Presentation</li>
+              <li>Communication</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="Projects" id="Projects">
+      <h1>Projects</h1>
+      <ul>
+        <li><a href="https://abhishek2272003.github.io/FrontEnd-Code-Editor/" target="_blank">Front-End-code Editor</a><br>A dynamic front-end code editor designed to empower developers by providing a seamless environment for writing, editing, and testing HTML, CSS, and JavaScript code. It offers real-time previews, syntax highlighting, and a user-friendly interface, enhancing the coding experience and productivity.</li>
+        <li><a href=" https://abhishek2272003.github.io/Random-Quote-generator/" target="_blank">Random Photos Generator</a><br>The Random Photos Generator project curates a diverse collection of images from various sources or APIs. Users can explore and discover a wide range of pictures, making it a creative tool for finding inspiration, generating visual content, or simply enjoying the beauty of random imagery.</li>
+        <li><a href="https://abhishek2272003.github.io/Random-Quote-generator/" target="_blank">Quote Generator</a><br>The Random Quote Generator presents users with thought-provoking or motivational quotes randomly selected from a predefined database or an external source. This project serves as a source of inspiration, offering users a chance to reflect on meaningful words and ideas with each new quote displayed.</li>
+        <li><a href="https://abhishek2272003.github.io/Note-app/" target="_blank">Note App</a><br>The Note App is a digital platform designed for easy note-taking and organization. Users can create, edit, and delete notes, categorize them for better organization, and often include features like rich text formatting, reminders, and synchronization across devices, ensuring that important information is never lost.</li>
+        <li><a href="https://abhishek2272003.github.io/Calculator/" target="_blank">Calculator</a><br>An essential digital tool that simplifies complex mathematical calculations. This calculator application offers a user-friendly interface with basic and advanced functions, ensuring accuracy and convenience for both simple arithmetic tasks and more intricate mathematical operations.</li>
+        <li><a href=" https://abhishek2272003.github.io/Feedback-UI/" target="_blank">Feedback UI</a><br>The Feedback UI project focuses on creating an interactive and visually appealing user interface to gather feedback from users. Through intuitive design, it enables users to share their thoughts, opinions, and suggestions, facilitating effective communication between users and the platform/service providers.</li>
+        <li><a href=" https://abhishek2272003.github.io/joke-generator/" target="_blank">Joke Generator</a><br>A fun and lighthearted project that generates jokes randomly. By pulling jokes from a predefined collection or an external API, this application offers users a dose of humor at the click of a button, making it a perfect tool to lighten the mood or entertain.</li>
+      </ul>
+    </section>
+
+
+
+
+    <section class="Certificates" id="certificates">
+      <h1>Certificates</h1>
+      <p>Earned an impressive collection of certificates, demonstrating expertise in various domains and a dedication to staying at the forefront of evolving trends and technologies.</p>
+      <div class="img-container">
+        <a href="img/a6952a06-099e-49a8-a541-9c5c42d62b9b (1).png" target="_blank">
+          <img src="img/a6952a06-099e-49a8-a541-9c5c42d62b9b (1).png" alt="" class="img-box">
+        </a>
+        <a href="img/css.jpg" target="_blank">
+          <img src="img/css.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/data-visualization.jpg" target="_blank">
+          <img src="img/data-visualization.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/dsa.jpg" target="_blank">
+          <img src="img/dsa.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/graphic-design.jpg" target="_blank">
+          <img src="img/graphic-design.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/html.jpg" target="_blank">
+          <img src="img/html.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/javascript.jpg" target="_blank">
+          <img src="img/javascript.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/numpy.jpg" target="_blank">
+          <img src="img/numpy.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/python.jpg" target="_blank">
+          <img src="img/python.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/ui-ux-design.jpg" target="_blank">
+          <img src="img/ui-ux-design.jpg" alt="" class="img-box">
+        </a>
+        <a href="img/video-editing.jpg" target="_blank">
+          <img src="img/video-editing.jpg" alt="" class="img-box last-box">
+        </a>
+      </div>
+    </section>
+
+
+    <!-- <section class="shooping" id="shooping">
+      <h1>Shop Now</h1>
+      <div class="shop-img-container">
+          <button>
+            <img src="img/books.jpg" alt="" class="shop-img">
+            <p>Books</p>
+            <span class="buy-now">BUY NOW</span>
+          </button>
+          <button>
+            <img src="img/Cameras.jpg" alt="" class="shop-img">
+            <p>Cameras</p>
+            <span class="buy-now">BUY NOW</span>
+          </button>
+          <button>
+            <img src="img/cloths.jpg" alt="" class="shop-img">
+            <p>Cloths</p>
+            <span class="buy-now">BUY NOW</span>
+          </button>
+          <button>
+            <img src="img/cosmatics.jpg" alt="" class="shop-img">
+            <p>Cosmatics</p>
+            <span class="buy-now">BUY NOW</span>
+          </button>
+          <button>
+            <img src="img/earbirds.jpg" alt="" class="shop-img">
+            <p>Earbirds</p>
+            <span class="buy-now">BUY NOW</span>
+
+          </button>
+          <button>
+            <img src="img/mobiles.jpg" alt="" class="shop-img">
+            <p>Mobiles</p>
+            <span class="buy-now">BUY NOW</span>
+          </button>
+          <button>
+            <img src="img/watch.jpg" alt="" class="shop-img">
+            <p>Watchs</p>
+            <span class="buy-now">BUY NOW</span>
+          </button>
+          <button>
+            <img src="img/jewellery.jpg" alt="" class="shop-img">
+            <p>Jewellery</p>
+            <span class="buy-now">BUY NOW</span>
+          </button>
+      </div>
+    </section> -->
+
+
+    <section class="Contact" id="contact">
+      <h1>Contact Me</h1>
+      <p class="contact-description">I would love to hear from you! Feel free to reach out using the contact form below or connect with me through the provided email address. Let's collaborate and bring your ideas to life!</p>
+      <div class="contact-text">
+        <h3>Contact Info</h3>
+        <p> <img src="img/map.png" alt="" class="contact-img"> <span class="bold-txt">Address:</span> Alwar , Rajesthan , India</p>       
+        <p><img src="img/gmail.png" alt="" class="contact-img"> <span class="bold-txt">Mail:</span>abhisain6367@gmail.com</p>
+        <p><img src="img/phone.png" alt="" class="contact-img"> <span class="bold-txt">Phone:</span> +91 6367845520</p>
+      </div>
+      <div class="redplat">LOOKING FORWARD TO <span class="bold-txt">HIRING</span> FROM YOU!</div>
+    </section>
+
+    <script src="script.js"></script>
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
