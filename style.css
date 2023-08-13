@@ -171,6 +171,17 @@ body{
     margin: 10px 10px;
     cursor: pointer;
 }
+.ghithub_logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background: url(img/pngwing.com.png);
+    background-position: center;
+    background-color: whitesmoke;
+    background-size: cover;
+    margin: 10px 10px;
+    cursor: pointer;
+}
 /* figure{
     border: 2px solid rgba(3, 207, 47, 0.623);
     border-width: 10px;
