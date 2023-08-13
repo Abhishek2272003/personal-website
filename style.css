@@ -117,7 +117,7 @@ body{
     flex-wrap: wrap-reverse;
     /* border: 2px solid red; */
     line-height: 25px;
-    height: 110vh;
+    height: 130vh;
 }
 .content{
     /* height: 50vh; */
@@ -208,7 +208,7 @@ body{
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* margin: 20px; */
     margin-top: 20px;
     /* margin-bottom: 90px; */
