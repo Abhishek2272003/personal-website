@@ -117,7 +117,7 @@ body{
     flex-wrap: wrap-reverse;
     /* border: 2px solid red; */
     line-height: 25px;
-    height: 130vh;
+    height: 90vh;
 }
 .content{
     /* height: 50vh; */
@@ -689,6 +689,7 @@ button:hover{
       .home{
         /* line-height: 20px; */
         font-size: 1rem;
+        height: 120vh;
       }
     /* CSS rules for screens with a width of 768 pixels or less */
     .paragraphs{
