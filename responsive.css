@@ -1,0 +1,216 @@
+@media screen and (max-width: 1060px) {
+  /* This @media query targets screens with a maximum width of 1060px */
+
+  /* Adjust the alignment of navigation bar items to be spaced between */
+  .navbar {
+    justify-content: space-between;
+  }
+
+  /* Hide the navigation links when the screen width is reduced */
+  .nav-links {
+    display: none;
+  }
+
+  /* Display the burger icon (typically used for mobile navigation) */
+  .burger {
+    display: block;
+  }
+
+  /* Style adjustments for the active navigation links container */
+  .nav-active {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    position: absolute; /* Position the container absolutely */
+    top: 60px; /* Distance from the top of the viewport */
+    right: 0; /* Position to the right edge of the viewport */
+    background-color: #02152c; /* Background color */
+    width: 100%; /* Occupy full width of the viewport */
+    transition: 2s; /* Apply a 2-second transition effect */
+  }
+
+  /* Adjust the vertical spacing for each navigation link */
+  .nav-active li {
+    padding: 15px 0; /* Vertical padding */
+  }
+
+  /* Increase the height of the "home" section */
+  .home {
+    font-size: 1rem; /* Font size */
+    height: 132vh; /* Viewport height (132% of the viewport's height) */
+  }
+
+  /* Adjust padding for social media logos */
+  .social_media_logos {
+    padding-top: 10px; /* Top padding */
+  }
+
+  /* Adjust heading styles in the "About" section */
+  .About h1 {
+    padding: 10px; /* Padding around the heading */
+  }
+
+  /* Adjust content padding in the "About" section */
+  .about-content {
+    padding: 10px 0; /* Vertical and horizontal padding */
+  }
+
+  /* Adjust margin and width for paragraphs */
+  .paragraphs {
+    margin: 80px 0 0 0; /* Top margin, no margins on other sides */
+    width: 100vw; /* Viewport width (100% of the viewport's width) */
+  }
+
+  /* Adjust logo image width */
+  .logo img {
+    width: 10vw; /* Viewport width (10% of the viewport's width) */
+  }
+
+  /* Adjust content width and padding */
+  .content {
+    padding: 0 20px; /* Horizontal padding */
+    width: 100%; /* Occupy full width of the container */
+    margin-right: 0; /* No right margin */
+  }
+
+  /* Adjust margin for download button */
+  .download-button {
+    margin-bottom: 20px; /* Bottom margin */
+  }
+
+  /* Styling for a figure element */
+  figure {
+    margin-top: 30px; /* Top margin */
+    padding: 20px; /* Padding inside the figure */
+    height: 50px; /* Height of the figure */
+    width: 50px; /* Width of the figure */
+    border: 2px solid linear-gradient(#f9f047, #0fd850); /* Border style */
+  }
+
+  /* Adjust the width of an element with ID "about-gif" */
+  #about-gif {
+    width: 90vw; /* Viewport width (90% of the viewport's width) */
+  }
+
+  /* Hide an element with ID "about-second-para" */
+  #about-second-para {
+    display: none; /* Hide the element */
+  }
+
+  /* Adjust width for progress container headers */
+  .progress-container-head {
+    width: 100%; /* Occupy full width of the container */
+  }
+
+  /* Adjust width and margin for progress containers */
+  .progress-container {
+    width: 80vw; /* Viewport width (80% of the viewport's width) */
+    margin-left: 25px; /* Left margin */
+  }
+
+  /* Adjust font size, padding, and width for programming section */
+  .programming {
+    margin: 0; /* Reset margins */
+    font-size: 1.1rem; /* Font size */
+    padding: 0; /* Reset padding */
+    width: 90vw; /* Viewport width (90% of the viewport's width) */
+    padding: 10px; /* Padding around the programming section */
+  }
+
+  /* Adjust styling for project list in the "Projects" section */
+  .Projects ul {
+    flex-direction: column; /* Arrange list items vertically */
+  }
+
+  /* Adjust styles for individual project list items */
+  .Projects ul li {
+    font-size: 0.9rem; /* Font size */
+    list-style: none; /* Remove default list style */
+    margin-left: 0; /* Reset left margin */
+    width: 100%; /* Occupy full width of the container */
+  }
+
+  /* Adjust link styling for project list items */
+  .Projects ul li a {
+    font-size: 1.1rem; /* Font size */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Set cursor to pointer */
+    width: 30vw; /* Viewport width (30% of the viewport's width) */
+  }
+
+  /* Adjust font size for the "Certificates" section */
+  .Certificates {
+    font-size: 1.1rem; /* Font size */
+  }
+
+  /* Adjust dimensions for an image box */
+  .img-box {
+    height: 100%; /* Occupies full height of the container */
+    width: 90%; /* Width of the container */
+  }
+
+  /* Add margin to the last box in a section */
+  .last-box {
+    margin-bottom: 70px; /* Bottom margin */
+  }
+
+  /* Adjust font size for the "Contact" section */
+  .Contact {
+    font-size: 1.1rem; /* Font size */
+  }
+
+  /* Adjust styling for contact text */
+  .contact-text h3 {
+    width: 100%; /* Occupy full width of the container */
+    margin-left: 0; /* Reset left margin */
+    padding-left: 30px; /* Left padding */
+  }
+
+  /* Adjust width for contact description */
+  .contact-description {
+    width: 80%; /* Width of the container */
+  }
+
+  /* Adjust styling for contact text paragraphs */
+  .contact-text p {
+    width: 100%; /* Occupy full width of the container */
+    padding-left: 30px; /* Left padding */
+  }
+
+  /* Adjust flex direction for image container */
+  .shop-img-container {
+    flex-direction: column; /* Arrange items vertically */
+  }
+
+  /* Adjust dimensions for buttons */
+  button {
+    height: 90%; /* Occupies 90% of the container's height */
+    width: 90%; /* Width of the container */
+    margin: 20px 0; /* Vertical margin: 20px top and bottom, 0 left and right */
+  }
+
+  /* Adjust dimensions for shop images */
+  .shop-img {
+    height: 100%; /* Occupies full height of the container */
+    width: 90%; /* Width of the container */
+  }
+
+  /* Adjust dimensions for a figure element */
+  figure {
+    height: 50%; /* Occupies 50% of the container's height */
+    width: 90%; /* Width of the container */
+    top: 50vh; /* Position from the top of the viewport (50% of viewport height) */
+    border: 2px solid white; /* Border style */
+  }
+
+  /* Adjust dimensions and styles for a specific class */
+  .redplat {
+    height: 8vh; /* Height of the element */
+    background-color: #124947; /* Background color */
+    border: none; /* Remove border */
+    font-size: 1rem; /* Font size */
+    position: relative; /* Positioning context for positioning elements */
+    margin-top: 5vh; /* Margin from the top of the viewport */
+    bottom: 0; /* Positioned at the bottom */
+  }
+}
