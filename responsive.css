@@ -22,13 +22,16 @@
     flex-direction: column; /* Arrange items vertically */
     align-items: center; /* Center items horizontally */
     position: absolute; /* Position the container absolutely */
-    top: 60px; /* Distance from the top of the viewport */
+    top: 5vh; /* Distance from the top of the viewport */
     right: 0; /* Position to the right edge of the viewport */
     background-color: #02152c; /* Background color */
-    width: 100%; /* Occupy full width of the viewport */
+    width: 30%; /* Occupy full width of the viewport */
     transition: 2s; /* Apply a 2-second transition effect */
+    border-radius: 10px;
   }
-
+  .img-box:hover {
+    animation: none;
+  }
   /* Adjust the vertical spacing for each navigation link */
   .nav-active li {
     padding: 15px 0; /* Vertical padding */
@@ -136,6 +139,11 @@
     text-decoration: none; /* Remove underline */
     cursor: pointer; /* Set cursor to pointer */
     width: 30vw; /* Viewport width (30% of the viewport's width) */
+  }
+
+  .Projects ul li a:hover{
+    background-color: #08d8ff;
+    color: #02152c;
   }
 
   /* Adjust font size for the "Certificates" section */
